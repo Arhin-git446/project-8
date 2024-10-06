@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url("dog-background.jpeg"); /* Replace with an actual image of dogs */
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                font-family: Arial, sans-serif;
+            }
+            #header {
+                text-align: center;
+                font-size: 50px;
+                font-weight: bold;
+                color: white;
+                padding: 20px;
+                background: radial-gradient(green 5%, gold 25%, red 55%, #07edf5 99%);
+                border-bottom: 5px solid #333;
+            }
+            #welcome {
+                text-align: center;
+                font-size: 40px;
+                font-weight: bold;
+                color: aquamarine;
+                padding: 20px;
+            }
+            @keyframes color-change {
+                0% {background-color: blueviolet;}
+                25% {background-color: goldenrod;}
+                50% {background-color: red;}
+                100% {background-color: greenyellow;}
+            }
+            .animated-box {
+                width: 1400px;
+                height: 400px;
+                margin: 20px auto;
+                background-color: cornsilk;
+                animation-name: color-change;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 30px;
+                font-weight: bold;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">Welcome to the Ultimate Dog Lovers' Page!</div>
+
+        <div id="welcome">Discover Amazing Facts About Dogs</div>
+
+        <div class="animated-box">Dogs are loyal, playful, and loving companions!</div>
+        
+        <div style="text-align: center; padding: 20px;">
+            <img src="dog-picture.jpeg" alt="Cute Dog Picture" style="width: 600px; height: 400px;"> <!-- Replace with an actual dog image -->
+        </div>
+        
+        <div style="text-align: center; font-size: 24px; color: #555;">
+            <p>Explore more about different dog breeds, their behavior, and how to care for them!</p>
+        </div>
+    </body>
+</html>
